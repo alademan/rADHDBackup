@@ -1,0 +1,478 @@
+/*********
+ * Styling from /r/ADD by computerpsych
+ * @author ohdeno.  @date 18th Jan 2012
+ */
+/*********
+ * Start User Flair Stylings
+ */
+/* Stuff will go here! 
+
+ * End User Flair Stylings
+ */
+/*********
+/* Makes our chat link an image with hover effect */
+a[href="http://webchat.freenode.net/?channels=/r/ADHD"]:after {
+    content: "";
+    width: 156px;
+    height: 29px;
+    background-image: url(http://a.thumbs.redditmedia.com/Qda82STo008PDp2l.png);
+    display: inline-block;
+    position: relative
+    }
+a[href="http://webchat.freenode.net/?channels=/r/ADHD"]:hover:after {
+    background-position: -0px -29px
+    }
+/*********
+/* /r/add styling */
+.titlebox .bottom {
+    font-size: 0px;
+    color: #FFF
+    }
+.titlebox .bottom:before {
+    font-size: 10px;
+    color: gray;
+    content: " "
+    }
+.titlebox .bottom .age {
+    font-size: 10px;
+    color: gray
+    }
+/*
+.side .md p > em {
+display: inline-block;
+padding: 5px;
+background: #F6E69F;
+border: 1px solid orange;
+}*/
+a.comments {
+    font-size: 13px !important
+    }
+a.comments.empty {
+    font-size: 15px !important
+    }
+a.title {
+    font-size: 17px !important;
+    text-shadow: 0 1px 0 #fff
+    }
+/*
+div.thing.link {
+    border-style: dashed;
+    border-width: 1px;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-left-style: none;
+    border-color: #b0b0b0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px 4px;
+    width: 88%;
+}
+a[href$="changes"].title:link { 
+     color: red 
+} 
+a[href$="changes"].title:visited {
+   color: red !important 
+}*/
+/*********
+ * Position UpsAlien, so it fits inside the bound box
+ * @author ohdeno.  @date 18th Jan 2012
+ */
+#header-img-a {
+    display: inline-block;
+    min-width: 140px;
+    /* 126 px */
+    min-height: 42px
+    }
+#header-img-a > #header-img {
+    margin-top: 3px;
+    position: absolute
+    }
+.content {
+    margin-top: 20px
+    }
+/*********
+ * SOPA merge note   (WTH does this mean? --schmin)
+ * @author ohdeno.  @date 18th Jan 2012
+ */
+.titlebox .usertext-body > div.md > :nth-child(1) {
+    /* padding: 10px; */
+    /* background-color: lightgreen; */
+    /* background-color: lightgray; */
+    /* @date 20–21 Jan 2012 */
+    }
+/*********
+ * • Dark grey italics extended description to increase contrast for better readability in our rules/policy
+ * • Smaller text, since it’s a narrow space. 
+ * @author ohdeno.  @date 26th Dec 2011
+ */
+.side .usertext-body ul:nth-child(3) > li > em {
+    color: #303030;
+    /* charcoal */
+    font-size: 95%
+    }
+/*********
+ * Get rid of useless bullet points in rules/policy
+ * @author ohdeno.  @date 26th Dec 2011
+ */
+.side .usertext-body hr + ul {
+    list-style: none;
+    margin-left: 0
+    }
+/*********
+ * Add some vertical spacing to the rules/policy list
+ * @author ohdeno.  @date 26th Dec 2011
+ */
+.side .usertext-body hr + ul > li {
+    margin-top: 5px
+    }
+/*********
+ * Make the italic descriptions start from new line
+ * and add slight margin from left to indicate hierarchy
+ * @author ohdeno.  @date 26th Dec 2011
+ */
+.side .usertext-body hr + ul > li > em {
+    display: block;
+    margin-left: 10px
+    }
+/*********
+ * This is not Youtube, so let’s keep video expanders grey. 
+ * @author ohdeno.  @date 26th Dec 2011
+ */
+.expando-button.collapsed.video {
+    background: url(http://c.thumbs.redditmedia.com/wsYbn1Dl9LlA8x8n.png) top left no-repeat
+    }
+/*********
+ * They look like Alien’s antenna.  (WTH does this mean? --schmin)
+ * @author ohdeno.  @date 28th Dec 2011, 13th Jan 2012
+ */
+.side .usertext-body ul {
+    list-style-type: circle
+    }
+/*********
+ * Hide user flairs in moderator box in the sidebar.   (I don't think this works. --schmin)
+ * @author ohdeno.  @date 20th Feb 2012
+ */
+.side > :nth-child(7) .flair {
+    display: none
+    }
+/*********
+ * Display moderators next to each other.  (I don't think this works. --schmin)
+ * @author ohdeno.  @date 20th Feb 2012
+ */
+.side > :nth-child(7) ul.content > li {
+    display: inline-block;
+    overflow: hidden
+    }
+/*********
+* Display colored flair. Made for contributing members.  @author computerpsych.  @date 18th Mar 2012
+*/
+.flair-TEAL {
+    background: #20B2AA !important;
+    color: black !important
+    }
+/*********
+* Display less bright colored flair. Made for contributing members.
+* @author computerpsych.  @date 2nd Apr2012
+*/
+.flair-LBLUE {
+    background: #BAD0EF !important;
+    color: black !important
+    }
+.flair-YELLOW {
+    background: #fff79a !important;
+    color: black !important
+    }
+.flair-ORANGE {
+    background: #FFEBD9 !important;
+    color: black !important
+    }
+.flair-PURPLE {
+    background: #C6C6FF !important;
+    color: black !important
+    }
+.flair-SEAGREEN {
+    background: #A5D3CA !important;
+    color: black !important
+    }
+.flair-PINK {
+    background: #FFA8FF !important;
+    color: black !important
+    }
+.flair-RED {
+    background: #FFB5B5 !important;
+    color: black !important
+    }
+/*********
+* Attempt to style posts about medication or Adderall differently. Initially just by a sprite of a red & white capsule at beginning or end. 
+/* @author computerpsych.  @date 4th Apr2012
+/* Cleaned up duplicates and reorganized by topic then alphabetical.  @author schmin.  @date 10th Jun 2012
+*/
+a.title[href*="addera"]:before, a.title[href*="addy"]:before, a.title[href*="aderall"]:before, a.title[href*="concerta"]:before, a.title[href*="focalin"]:before, a.title[href*="riltlin"]:before, a.title[href*="ritalin"]:before, a.title[href*="vyvanse"]:before, a.title[href*="vyvance"]:before, a.title[href*="amphetamine"]:before, a.title[href*="dexidrine"]:before, a.title[href*="dexedrine"]:before, a.title[href*="methylp"]:before, a.title[href*="stimulant"]:before, a.title[href*="medicine"]:before, a.title[href*="medica"]:before, a.title[href*="meds"]:before, a.title[href*="brand_name"]:before, a.title[href*="generic"]:before, a.title[href*="phamarc"]:before, a.title[href*="prescription"]:before, a.title[href*="script"]:before, a.title[href*="pills"]:before, a.title[href*="anti_depr"]:before, a.title[href*="wellbutrin"]:before {
+    background-image: url(http://d.thumbs.redditmedia.com/WPGuc7_inKTXlNIE.png);
+    width: 18px;
+    height: 18px;
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 1px 2px
+    }
+/*********
+*replace "readers" with rADHDitors.  @author computerpsych.  * @date 19th April2012
+*/
+div.titlebox span.word {
+    display: none
+    }
+div.titlebox span.number:after {
+    content: " reADHDitors"
+    }
+/*********
+* Add a light blue background for alternating posts to give a bit of a visual break that is not distracting
+* @author computerpsych.  @date 19th Apr2012
+*/
+.link.even, .linkcompressed.even {
+    background-color: #CEE3F8;
+    /* Palest blue */
+    padding: 5px 10px 5px 10px !important;
+    -webkit-border-bottom-right-radius: 7px !important;
+    -webkit-border-bottom-left-radius: 7px !important;
+    -webkit-border-top-right-radius: 7px !important;
+    -webkit-border-top-left-radius: 7px !important;
+    -moz-border-radius-bottomright: 7px !important;
+    -moz-border-radius-bottomleft: 7px !important;
+    -moz-border-radius-topright: 7px !important;
+    -moz-border-radius-topleft: 7px !important
+    }
+.link.odd, .linkcompressed.odd, .link.even + .link.odd {
+    background-color: #FFFFFF;
+    /* white */
+    padding: 5px 10px 5px 10px !important;
+    -webkit-border-bottom-right-radius: 7px !important;
+    -webkit-border-bottom-left-radius: 7px !important;
+    -webkit-border-top-right-radius: 7px !important;
+    -webkit-border-top-left-radius: 7px !important;
+    -moz-border-radius-bottomright: 7px !important;
+    -moz-border-radius-bottomleft: 7px !important;
+    -moz-border-radius-topright: 7px !important;
+    -moz-border-radius-topleft: 7px !important
+    }
+/*********
+* Adding some text to the submission page
+* @author computerpsych.  @date 24th Apr2012
+*/
+/* Adds bolded text in the yellow box on the text-submission page */
+#text-desc:after {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    content: "Please search /r/adhd or use google for 'site:reddit.com/r/adhd *search terms*'. Please include previous research you have found regarding your question. /r/ADHD is not your personal research assistant. 'Here are my symptoms, do I have ADHD' posts will be deleted. See a doctor!"
+    }
+#text-field .title:before {
+    content: ""
+    }
+#text-field .title:after {
+    content: ": Avoid a wall of text by spacing your paragraphs and including proper formatting (bullets and bold especially helps!). If your post is more than 2 paragraphs we suggest a TLDR (too long didn't read) summary."
+    }
+#title-field .title:after {
+    content: ": Please use a DESCRIPTIVE title and include your question for self-posts."
+    }
+/* Placeholder for custom text on the link submission page in the yellow box */
+#link-desc:after {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    content: "If you are posting a picture or meme, consider taking it to /r/ADHDmeme, or include a comment which shares your experience or asks a question to stimulate a discussion."
+    }
+/*********
+* Adding a sticky for announcements. To change the announcement simply edit the h3 (###) item at the top of the sidebar.
+* @author computerpsych.  @date 30th Apr2012
+*/
+/*announcement sticky*/
+div.content {
+    /*This lowers the links to create space*/
+    margin-top: 50px
+    }
+.titlebox form {
+    /*Hack to enable repositioning of child elements*/
+    position: static
+    }
+/*********
+ * Banner Color Combinations:
+ * 
+ */
+.side h3:nth-of-type(1) {
+    /*this code positions the sticky*/
+    position: absolute;
+    display: block;
+    top: 56px;
+    left: 20px;
+    /*this code styles the sticky*/
+    /* background-color: #ADFF5C; /*--  spring green */
+    /* background-color: #0a5a7f; /* -- dark teal */
+    /* background-color: #80B584; /* -- grass green */
+    /* background-color: #0066FF; /* french blue */
+    background-color: #5c4ea0;
+    /* -- dark eggplant */
+    /* background-color: #333333; /* -- "charcoal" I guess */
+    color: #eeeeee;
+    /* -- Bone (off-white) for text. */
+    /* color: #333333; /* -- Charcoal */
+    /* color: #ffffcd; /*-- USED TO BE pale yellow text for dark background */
+    text-align: left;
+    margin: 15px;
+    border-radius: 8px;
+    width: 63%;
+    padding: 7px 0px 7px 40px;
+    /*this code creates the image*/
+    background-image: url(http://f.thumbs.redditmedia.com/-kuorXYA93HEIose.png);
+    background-repeat: no-repeat;
+    background-position: left
+    }
+.side h3:nth-of-type(1) a {
+    /* color: #0a5a7f; /* -- dark teal */
+    /* color: #34efce; /*Light/bright teal*/
+    color: #41d4e1;
+    /* Link color--Aqua for links */
+    /* color: #F2751D; /* orange */
+    /* color: #ADFF5C; /*--  spring green links for dark background */
+    /* color: #5c4ea0; /* -- dark eggplant */
+    }
+/*********
+* Link flair styling 
+* @author computerpsych.  @date 5th May 2012
+*/
+.flair-tip, .linkflair-tip .linkflairlabel, .linkflair.linkflair-tip > .linkflairlabel {
+    background: #99FFCC !important;
+    border-color: #4AF29C !important
+    }
+.flair-school, .linkflair-school .linkflairlabel, .linkflair.linkflair-school > .linkflairlabel {
+    background: #ada !important;
+    border-color: #6E996E !important
+    }
+.flair-yellow, .linkflair-yellow .linkflairlabel, .linkflair.linkflair-yellow > .linkflairlabel {
+    background: #ff9 !important;
+    border-color: #dd7 !important
+    }
+.flair-red, .linkflair-red .linkflairlabel, .linkflair.linkflair-red > .linkflairlabel {
+    background: #f99 !important;
+    border-color: #eef !important
+    }
+.flair-purple, .linkflair-purple .linkflairlabel, .linkflair.linkflair-purple > .linkflairlabel {
+    background: #c9f !important;
+    border-color: #9fe !important
+    }
+.flair-pink, .linkflair-pink .linkflairlabel, .linkflair.linkflair-pink > .linkflairlabel {
+    background: #f9c !important;
+    border-color: #e49 !important
+    }
+/*********
+* A hover warning on comment submission. Will be used to remind to upvote initially.
+* @author computerpsych.  @date 8th May 2012
+*/
+.comments-page .bottom-area .save:hover:before {
+    background-color: #5c4ea0;
+    /* -- dark eggplant */
+    color: white;
+    border-top: 2px solid black;
+    content: "If this thread could be useful to others, please upvote...";
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 4px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    white-space: pre-wrap
+    }
+/*********
+* Sidebar styling
+* @author computerpsych.  @date 18th June 2012
+*/
+div.titlebox {
+    background-color: #f8f8f8;
+    /*palest grey*/
+    border: 4px solid gray;
+    border-color: #5c4ea0;
+    /* -- dark eggplant */
+    padding: 3px 3px 4px 4px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    overflow: visible
+    }
+.titlebox .usertext-body .md hr {
+    color: #eeeeee;
+    /* -- Bone (off-white) */
+    /* color: #E6F0FF; /*palest french blue*/
+    background-color: #5c4ea0;
+    /* -- dark eggplant */
+    height: 4px
+    }
+.side .md h1 {
+    color: #5c4ea0;
+    /* -- dark eggplant */
+    margin-top: 8px
+    }
+/*********
+ * Hover Menus, by sugardeath, 29.June.2012
+ * Weekly Thread (List 1), Community Guidelines (List 2), Related Subreddits (List 4)
+ */
+/*turns the lists into menus*/
+.titlebox ul:nth-of-type(1), .titlebox ul:nth-of-type(2), .titlebox ul:nth-of-type(4) {
+    font-weight: bold;
+    color: #5c4ea0;
+    /* -- dark eggplant */
+    margin-top: 6px
+    }
+/*hide and styles lists*/
+.titlebox ul:nth-of-type(1) li, .titlebox ul:nth-of-type(2) li, .titlebox ul:nth-of-type(4) li {
+    display: none;
+    list-style-type: circle;
+    margin-left: 20px;
+    color: black
+    }
+/*makes whole list item selectable*/
+/*shows menu on hover*/
+.titlebox ul:nth-of-type(1) li:first-child, .titlebox ul:nth-of-type(2) li:first-child, .titlebox ul:nth-of-type(4) li:first-child, .titlebox ul:hover li {
+    display: block;
+    list-style-type: circle
+    }
+/*turns top list item into section header*/
+.titlebox ul:nth-of-type(1) li:first-child, .titlebox ul:nth-of-type(2) li:first-child, .titlebox ul:nth-of-type(4) li:first-child {
+    font-size: 12pt;
+    margin-left: 0px;
+    /* color: #0066FF; /* french blue */
+    color: #A541C6;
+    /* grape */
+    }
+/* Experimenting with some font styling. Headers. */
+.md h4 {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 24px;
+    color: #CC0000;
+    margin-top: 10px;
+    margin-bottom: 10px
+    }
+.md h5 {
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+    font-size: 24px;
+    color: #005fce;
+    margin-top: 8px;
+    margin-bottom: 8px
+    }
+.md h6 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 24px;
+    color: #347c2c;
+    margin-top: 8px;
+    margin-bottom: 8px
+    }
