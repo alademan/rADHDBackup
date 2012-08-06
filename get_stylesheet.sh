@@ -12,10 +12,10 @@ PROJPATH="/home/satoshi/projects/rADHDBackup/"
 cd $PROJPATH
 
 # Get CSS
-wget http://www.reddit.com/r/adhd/stylesheet.css -O style.css
+wget http://www.reddit.com/r/adhd/stylesheet.css
 
 # Add it to git
-git add style.css
+git add .
 
 # Commit
 git commit -m "Nightly CSS Backup $(date)"
