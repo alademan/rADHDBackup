@@ -12,7 +12,7 @@ PROJPATH="/home/satoshi/projects/rADHDBackup/"
 cd $PROJPATH
 
 # Get CSS
-wget http://www.reddit.com/r/adhd/stylesheet.css
+wget http://www.reddit.com/r/adhd/stylesheet.css -O stylesheet.css
 
 # Add it to git
 git add .
