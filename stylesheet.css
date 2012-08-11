@@ -311,18 +311,18 @@ div.content {
     /*this code styles the sticky */
     /************* STICKY BACKGROUND COLOR *************/
     /* background-color: #990066; /* -- dark raspberry */
-    background-color: #0a5a7f;
-    /* -- dark teal */
+    /* background-color: #0a5a7f; /* -- dark teal */
     /* background-color: #ADFF5C; /*--  spring green */
     /* background-color: #80B584; /* -- grass green */
     /* background-color: #0066FF; /* french blue */
-    /* background-color: #5c4ea0; /* -- dark eggplant */
+    background-color: #5c4ea0;
+    /* -- dark eggplant */
     /* background-color: #333333; /* -- "charcoal" I guess */
     /************* STICKY TEXT COLOR *************/
-    color: #eeeeee;
-    /* -- Bone (off-white) for text. */
+    /* color: #eeeeee; /* -- Bone (off-white) for text. */
     /* color: #333333; /* -- Charcoal */
-    /* color: #FFFFDD; /*-- pale yellow text for dark background */
+    color: #ffffeb;
+    /*-- palest yellow text for dark background */
     text-align: left;
     margin-top: 20px;
     margin-bottom: 35px;
@@ -340,14 +340,13 @@ div.content {
     }
 .side h3:nth-of-type(1) a {
     /************* STICKY LINK COLOR *************/
-    /*color: #FF9933; /* bright orange */
-    /* color: #ADFF5C; /*--  spring green */
+    /* color: #FF9933; /* bright orange */
     /* color: #0a5a7f; /* -- dark teal */
     /* color: #34efce; /*Light/bright teal*/
     /* color:#41d4e1; /* Link color--Aqua for links */
-    color: #F2751D;
-    /* orange */
-    /* color: #ADFF5C; /*--  spring green links for dark background */
+    /* color: #F2751D; /* orange */
+    color: #ADFF5C;
+    /*--  spring green links for dark background */
     /* color: #5c4ea0; /* -- dark eggplant */
     }
 /*********
@@ -384,7 +383,8 @@ div.content {
 */
 .comments-page .bottom-area .save:hover:before {
     /************* SAME AS STICKY BACKGROUND COLOR *************/
-    background-color: #0a5a7f;
+    background-color: #5c4ea0;
+    /* -- dark eggplant */
     color: white;
     border-top: 2px solid black;
     content: "If this thread could be useful to others, please upvote...";
@@ -406,12 +406,15 @@ div.content {
 * @author computerpsych.  @date 18th June 2012
 */
 div.titlebox {
-    background-color: #FFFFDD;
+    background-color: #ffffeb;
     /*-- pale yellow text for dark background */
+    /* background-color: #ffffff; /*white*/
     /* background-color: #f8f8f8; /*palest grey*/
+    /* background-color: #E6F0FF; /*palest french blue*/
     border: 4px solid gray;
     /************* SAME AS STICKY BACKGROUND COLOR *************/
-    border-color: #0a5a7f;
+    border-color: #5c4ea0;
+    /* -- dark eggplant */
     padding: 3px 3px 4px 4px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -421,18 +424,19 @@ div.titlebox {
     overflow: visible
     }
 .titlebox .usertext-body .md hr {
-    color: #FFFFDD;
-    /*-- pale yellow */
+    color: #CEE3F8;
+    /* Palest blue */
+    /* color: #FFFFDD; /*-- pale yellow */
     /* color: #E6F0FF; /*palest french blue*/
     /************* SAME AS STICKY BACKGROUND COLOR *************/
-    background-color: #0a5a7f;
-    /*--  spring green */
+    background-color: #5c4ea0;
+    /* -- dark eggplant */
     height: 4px
     }
 .side .md h1 {
     /************* SAME AS STICKY BACKGROUND COLOR *************/
-    color: #0a5a7f;
-    /*--  spring green */
+    color: #5c4ea0;
+    /* -- dark eggplant */
     margin-top: 8px
     }
 /*********
@@ -443,8 +447,8 @@ div.titlebox {
 .titlebox ul:nth-of-type(1), .titlebox ul:nth-of-type(2), .titlebox ul:nth-of-type(4) {
     font-weight: bold;
     /************* SAME AS STICKY BACKGROUND COLOR *************/
-    color: #0a5a7f;
-    /*--  spring green */
+    color: #5c4ea0;
+    /* -- dark eggplant */
     margin-top: 6px
     }
 /*hide and styles lists*/
@@ -467,9 +471,9 @@ div.titlebox {
     /************* STICKY LINK COLOR -- might have to fuss with it for good contrast *************/
     /* color: #DD5500; /* bright orange */
     /* color: #34efce; /*Light/bright teal*/
-    /* color: #80B584; /* -- grass green */
-    color: #0066FF;
-    /* french blue */
+    color: #009933;
+    /* -- grass green */
+    /* color: #0066FF; /* french blue */
     }
 /* Experimenting with some font styling. Headers. */
 .md h4 {
