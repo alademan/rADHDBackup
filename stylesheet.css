@@ -342,11 +342,11 @@ div.content {
     /************* STICKY LINK COLOR *************/
     /* color: #FF9933; /* bright orange */
     /* color: #0a5a7f; /* -- dark teal */
-    color: #34efce;
-    /*Light/bright teal*/
+    /* color: #34efce; /*Light/bright teal*/
     /* color:#41d4e1; /* Link color--Aqua for links */
     /* color: #F2751D; /* orange */
-    /* color: #ADFF5C; /*--  spring green links for dark background */
+    color: #ADFF5C;
+    /*--  spring green links for dark background */
     /* color: #5c4ea0; /* -- dark eggplant */
     }
 /*********
