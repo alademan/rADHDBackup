@@ -313,6 +313,7 @@ div.content {
     background-color: #990066;
     /* -- dark raspberry */
     /* background-color: #0a5a7f; /* -- dark teal */
+    /* background-color: #CCFFCC; /* -- off-white green */
     /* background-color: #ADFF5C; /*--  spring green */
     /* background-color: #80B584; /* -- grass green */
     /* background-color: #0066FF; /* french blue */
@@ -378,30 +379,6 @@ div.content {
     border-color: #e49 !important
     }
 /*********
-* A hover warning on comment submission. Will be used to remind to upvote initially.
-* @author computerpsych.  @date 8th May 2012
-*/
-.comments-page .bottom-area .save:hover:before {
-    /************* SAME AS STICKY BACKGROUND COLOR *************/
-    background-color: #990066;
-    /* -- dark raspberry */
-    color: white;
-    border-top: 2px solid black;
-    content: "If this thread could be useful to others, please upvote...";
-    font-size: 34px;
-    line-height: 40px;
-    font-weight: bold;
-    padding: 4px;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    z-index: 99;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    white-space: pre-wrap
-    }
-/*********
 * Sidebar styling
 * @author computerpsych.  @date 18th June 2012
 */
@@ -434,21 +411,21 @@ div.titlebox {
     height: 4px
     }
 .side .md h1 {
-    /************* SAME AS STICKY BACKGROUND COLOR *************/
-    color: #990066;
-    /* -- dark raspberry */
+    /************* SAME AS STICKY Text COLOR *************/
+    color: #ffffff;
+    /*white*/
     margin-top: 8px
     }
 /*********
- * Hover Menus, by sugardeath, 29.June.2012
+ * HOVER MENUS, by sugardeath, 29.June.2012
  * Weekly Thread (List 1), Community Guidelines (List 2), Related Subreddits (List 4)
  */
 /*turns the lists into menus*/
 .titlebox ul:nth-of-type(1), .titlebox ul:nth-of-type(2), .titlebox ul:nth-of-type(4) {
     font-weight: bold;
-    /************* SAME AS STICKY BACKGROUND COLOR *************/
-    color: #990066;
-    /* -- dark raspberry */
+    /************* SAME AS STICKY Text COLOR *************/
+    background-color: #ffffff;
+    /*white*/
     margin-top: 6px
     }
 /*hide and styles lists*/
