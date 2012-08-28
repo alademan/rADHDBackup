@@ -92,6 +92,10 @@ a[href$="changes"].title:visited {
     }
 /*********
  * SOPA merge note   (WTH does this mean? --schmin)
+ *
+ * This displayed the notice at the top of /r/add just before
+ * they were merged when reddit had their SOPA blackout. -Tony
+ *
  * @author ohdeno.  @date 18th Jan 2012
  */
 .titlebox .usertext-body > div.md > :nth-child(1) {
