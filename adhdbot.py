@@ -4,7 +4,7 @@ import reddit
 
 user_agent = "ADHD Bot by /u/sugardeath - to help out on /r/ADHD"
 r = reddit.Reddit(user_agent=user_agent)
-r.login('ADHDbot', 'educationpersonperhapsworse')
+r.login('ADHDbot', '')
 #r.login('sugardeath', '')
 
 #r.compose_message('sugardeath', 'test', 'asdf')
