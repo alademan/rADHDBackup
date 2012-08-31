@@ -314,20 +314,20 @@ div.content {
     left: 0px;
     /*this code styles the sticky */
     /************* STICKY BACKGROUND COLOR *************/
-    background-color: #990066;
-    /* -- dark raspberry */
+    /*background-color: #990066; /* -- dark raspberry */
     /* background-color: #0a5a7f; /* -- dark teal */
     /* background-color: #CCFFCC; /* -- off-white green */
     /* background-color: #ADFF5C; /*--  spring green */
-    /* background-color: #80B584; /* -- grass green */
+    background-color: #80B584;
+    /* -- grass green */
     /* background-color: #0066FF; /* french blue */
     /* background-color: #5c4ea0; /* -- dark eggplant */
     /* background-color: #333333; /* -- "charcoal" I guess */
     /************* STICKY TEXT COLOR *************/
     /* color: #eeeeee; /* -- Bone (off-white) for text. */
-    /* color: #333333; /* -- Charcoal */
-    color: #ffffeb;
-    /*-- palest yellow text for dark background */
+    color: #333333;
+    /* -- Charcoal */
+    /*color: #ffffeb; /*-- palest yellow text for dark background */
     text-align: left;
     margin-top: 20px;
     margin-bottom: 35px;
@@ -345,13 +345,13 @@ div.content {
     }
 .side h3:nth-of-type(1) a {
     /************* STICKY LINK COLOR *************/
-    color: #FF9933;
-    /* bright orange */
+    /*color: #FF9933; /* bright orange */
     /* color: #0a5a7f; /* -- dark teal */
     /* color: #34efce; /*Light/bright teal*/
     /* color:#41d4e1; /* Link color--Aqua for links */
-    /* color: #F2751D; /* orange */
-    /* color: #ADFF5C; /*--  spring green links for dark background */
+    /*color: #F2751D; /* orange */
+    color: #ADFF5C;
+    /*--  spring green links for dark background */
     /* color: #5c4ea0; /* -- dark eggplant */
     }
 /*********
@@ -393,9 +393,9 @@ div.titlebox {
     /* background-color: #f8f8f8; /*palest grey*/
     /* background-color: #E6F0FF; /*palest french blue*/
     border: 4px solid gray;
-    /************* SAME AS STICKY BACKGROUND COLOR *************/
-    border-color: #990066;
-    /* -- dark raspberry */
+    /************* Sidebar Border CONSTANT COLOR (or same as sticky background) *************/
+    border-color: #333333;
+    /* -- Charcoal */
     padding: 3px 3px 4px 4px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -409,15 +409,15 @@ div.titlebox {
     /* Palest blue */
     /* color: #FFFFDD; /*-- pale yellow */
     /* color: #E6F0FF; /*palest french blue*/
-    /************* SAME AS STICKY BACKGROUND COLOR *************/
-    background-color: #990066;
-    /* -- dark raspberry */
+    /************* Sidebar Headers: CONSTANT COLOR (or same as sticky background)  *************/
+    background-color: #333333;
+    /* -- Charcoal */
     height: 4px
     }
 .side .md h1 {
-    /************* SAME AS STICKY Text COLOR *************/
-    color: #ffffff;
-    /*white*/
+    /************* Sidebar Dividers: CONSTANT COLOR (or same as sticky background) *************/
+    color: #333333;
+    /* -- Charcoal */
     margin-top: 8px
     }
 /*********
@@ -449,14 +449,9 @@ div.titlebox {
 .titlebox ul:nth-of-type(1) li:first-child, .titlebox ul:nth-of-type(2) li:first-child, .titlebox ul:nth-of-type(4) li:first-child {
     font-size: 12pt;
     margin-left: 0px;
-    /************* STICKY LINK COLOR -- might have to fuss with it for good contrast *************/
-    /* color: #FF9933; /* bright orange */
-    color: #DD5500;
-    /* bright orange */
-    /* color: #34efce; /*Light/bright teal*/
-    /* color: #009933; /* -- grass green */
-    /* color: #0066FF; /* french blue */
-    /* color:#41d4e1; /* Aqua */
+    /************* Sidebar Hover Menus: CONSTANT COLOR (or same as sticky link) *************/
+    color: #0066FF;
+    /* french blue */
     }
 /* Experimenting with some font styling. Headers. */
 .md h4 {
