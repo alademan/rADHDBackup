@@ -315,19 +315,19 @@ div.content {
     /*this code styles the sticky */
     /************* STICKY BACKGROUND COLOR *************/
     /*background-color: #990066; /* -- dark raspberry */
-    /* background-color: #0a5a7f; /* -- dark teal */
+    background-color: #0a5a7f;
+    /* -- dark teal */
     /* background-color: #CCFFCC; /* -- off-white green */
     /* background-color: #ADFF5C; /*--  spring green */
     /* background-color: #80B584; /* -- grass green */
-    background-color: #0066FF;
-    /* french blue */
+    /* background-color: #0066FF; /* french blue */
     /* background-color: #5c4ea0; /* -- dark eggplant */
     /* background-color: #333333; /* -- "charcoal" I guess */
     /************* STICKY TEXT COLOR *************/
-    /* color: #eeeeee; /* -- Bone (off-white) for text. */
+    color: #eeeeee;
+    /* -- Bone (off-white) for text. */
     /* color: #333333; /* -- Charcoal */
-    color: #ffffeb;
-    /*-- palest yellow text for dark background */
+    /* color: #ffffeb; /*-- palest yellow text for dark background */
     text-align: left;
     margin-top: 20px;
     margin-bottom: 35px;
@@ -345,13 +345,13 @@ div.content {
     }
 .side h3:nth-of-type(1) a {
     /************* STICKY LINK COLOR *************/
-    /*color: #FF9933; /* bright orange */
+    /* color: #FF9933; /* bright orange */
     /* color: #0a5a7f; /* -- dark teal */
-    /* color: #34efce; /*Light/bright teal*/
+    color: #34efce;
+    /*Light/bright teal*/
     /* color:#41d4e1; /* Link color--Aqua for links */
-    /*color: #F2751D; /* orange */
-    color: #ADFF5C;
-    /*--  spring green links for dark background */
+    /* color: #F2751D; /* orange */
+    /* color: #ADFF5C; /*--  spring green links for dark background */
     /* color: #5c4ea0; /* -- dark eggplant */
     }
 /*********
