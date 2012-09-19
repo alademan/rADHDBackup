@@ -316,9 +316,9 @@ div.content {
     /* background-color: #ADFF5C; /*--  spring green */
     /* background-color: #80B584; /* -- grass green */
     /* background-color: #0066FF; /* french blue */
-    background-color: #5c4ea0;
-    /* -- dark eggplant */
-    /* background-color: #333333; /* -- "charcoal" I guess */
+    /* background-color: #5c4ea0; /* -- dark eggplant */
+    background-color: #333333;
+    /* -- "charcoal" I guess */
     /************* STICKY TEXT COLOR *************/
     /* color: #eeeeee; /* -- Bone (off-white) for text. */
     /* color: #333333; /* -- Charcoal */
