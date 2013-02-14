@@ -12,8 +12,8 @@ left:0px;
 /************* STICKY BACKGROUND COLOR *************/
 /* background-color: #880022; /* -- merlot (Sticky Background Color #1) */
 /* background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
-/* background-color: #5d005d; /* -- eggplant (Sticky Background Color #3) */
-background-color: #000777; /* indigo (Sticky Background Color #4) */
+background-color: #5d005d; /* -- eggplant (Sticky Background Color #3) */
+/* background-color: #000777; /* indigo (Sticky Background Color #4) */
 /* background-color: #005c5c; /* -- dark teal (Sticky Background Color #5) */
 /* background-color: #005500; /* forest green (Sticky Background Color #6) */
 /* background-color: #e9241d; /* fire engine red (Sticky Background Color #7 */
@@ -43,8 +43,8 @@ background-position:left;
 /************* STICKY LINK COLOR *************/
 /* color: #ff9999; /* -- salmon */
 /* color: #aa88ff; /* -- lavender */
-color: #00dddd; /* -- aqua */
-/* color: #77ee77; /*-- apple green */
+/* color: #00dddd; /* -- aqua */
+color: #77ee77; /*-- apple green */
 /* color: #ffee00; /*-- yellow */
 /* color: #ff8448; /* orange */
 }
@@ -554,4 +554,19 @@ background-image:  url(%%brain%%);
   display: inline-block;     
   background-repeat: no-repeat;
   background-position: 2px 7px;     
+}
+
+/************* Wiki styling *************/
+
+.wiki-page .wiki-page-content .md.wiki h1, .wiki-page .wiki-page-content .md.wiki h2, .wiki-page .wiki-page-content .md.wiki h3, .wiki-page .wiki-page-content .md.wiki h4, .wiki-page .wiki-page-content .md.wiki h5, .wiki-page .wiki-page-content .md.wiki h6 {
+  color: #333333!important;
+}
+
+.wiki-page .wiki-page-content .md.wiki h2 {
+  font-size: 1.5em!important;
+}
+
+.wiki-page .wiki-page-content .md.wiki h3 {
+  font-size: 1.2em!important;
+  font-style: italic!important;
 }
