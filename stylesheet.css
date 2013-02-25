@@ -1,67 +1,84 @@
-/*********
-* Banner Color Combinations:
-*
-*/
-.side h3:nth-of-type(1) {
-/*this code positions the sticky*/
-position:absolute;
+/*******************************************************************************************
+ * CSS STYLESHEET FOR /R/ADHD
+ */
 
-top:50px;
-left:0px;
-/*this code styles the sticky */
-/************* STICKY BACKGROUND COLOR *************/
-/* background-color: #880022; /* -- merlot (Sticky Background Color #1) */
-/* background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
-/* background-color: #5d005d; /* -- eggplant (Sticky Background Color #3) */
-background-color: #000777; /* indigo (Sticky Background Color #4) */
-/* background-color: #005c5c; /* -- dark teal (Sticky Background Color #5) */
-/* background-color: #005500; /* forest green (Sticky Background Color #6) */
+/*******************************************************************************************
+ * Sticky Color Combinations
+ * To change the announcement simply edit the h3 (###) item at the top of the sidebar
+ * (under /r/adhd moderations tools > community settings.)
+ * To change color, edit (comment and uncomment) the color and background-color attributes below.
+ * (note: there are three different colors for the sticky, the link color, the text color, and the background color).
+ */
 
-/************* STICKY TEXT COLOR *************/
-/* color: #ffffee; /* -- palest yellow */
-/* color: #ddffdd; /* -- palest green */
-/* color: #cceeff; /* -- palest blue */
-color: #eeeeee; /* -- bone (off-white) */
-/* color: #009900; /* --darker green */
-text-align: left;
-margin-top: 20px;
-margin-bottom: 35px;
-margin-left: 15px;
-border-style: groove;
-border-color: #808080;
-border-width: 0px;
-width: 63%;
-padding-top:1px;
-padding-left:40px;
-/*this code creates the image*/
-background-image: url(%%announceicon%%);
-background-repeat: no-repeat;
-background-position:left;
-}
 .side h3:nth-of-type(1) a {
-/************* STICKY LINK COLOR *************/
-/* color: #ff9999; /* -- salmon */
-/* color: #aa88ff; /* -- lavender */
-color: #00dddd; /* -- aqua */
-/* color: #77ee77; /*-- apple green */
-/* color: #ffee00; /*-- yellow */
-/* color: #ff8448; /* orange */
+    /************* STICKY LINK COLOR *************/
+/*    color: #ff9999; /* -- salmon */
+/*    color: #aa88ff; /* -- lavender */
+    color: #00dddd; /* -- aqua */
+/*    color: #77ee77; /*-- apple green */
+/*    color: #ffee00; /*-- yellow */
+/*    color: #ff8448; /* orange */
 }
 
-/*********
-* Styling from /r/ADD by computerpsych
-* @author ohdeno.  @date 18th Jan 2012
-*/
+.side h3:nth-of-type(1) {
+    /************* STICKY BACKGROUND COLOR *************/
+/*    background-color: #880022; /* -- merlot (Sticky Background Color #1) */
+/*    background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
+/*    background-color: #5d005d; /* -- eggplant (Sticky Background Color #3) */
+    background-color: #000777; /* indigo (Sticky Background Color #4) */
+/*    background-color: #005c5c; /* -- dark teal (Sticky Background Color #5) */
+/*    background-color: #005500; /* forest green (Sticky Background Color #6) */
 
-/*********
-* Start User Flair Stylings
-*/
-    /* Stuff will go here!
-* End User Flair Stylings
-*/
+    /************* STICKY TEXT COLOR *************/
+/*    color: #ffffee; /* -- palest yellow */
+/*    color: #ddffdd; /* -- palest green */
+/*    color: #cceeff; /* -- palest blue */
+    color: #eeeeee; /* -- bone (off-white) */
+/*    color: #009900; /* --darker green */
 
-/*********
-/* Makes our chat link an image with hover effect */
+    /*this code positions the sticky*/
+
+    position:absolute;
+    top:50px;
+    left:0px;
+
+    /*this code styles the sticky */
+
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    border-style: groove;
+    border-color: #808080;
+    border-width: 0px;
+    width: 63%;
+    padding-top:1px;
+    padding-left:40px;
+
+    /*this code creates the image*/
+    background-image: url(%%announceicon%%);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+
+div.content {
+    /*This lowers the links to create space*/
+    margin-top:50px;
+}
+
+.titlebox form {
+    /*Hack to enable repositioning of child elements*/
+    position: static;
+}
+
+/*******************************************************************************************
+ * Styling from /r/ADD by computerpsych
+ * @author ohdeno.  @date 18th Jan 2012
+ */
+
+/*******************************************************************************************
+ * Makes our chat link an image with hover effect
+ */
 
 a[href="http://webchat.freenode.net/?channels=/r/ADHD"]:after {
     content: "";
@@ -69,36 +86,16 @@ a[href="http://webchat.freenode.net/?channels=/r/ADHD"]:after {
     height: 29px;
     background-image: url(%%chat%%);
     display: inline-block;
-    position: relative
-    }
+    position: relative;
+}
 a[href="http://webchat.freenode.net/?channels=/r/ADHD"]:hover:after {
-    background-position: -0px -29px
-    }
-
-/*********
-/* /r/add styling */
-
-.titlebox .bottom {
-font-size: 0px;
-color: #FFF;
-}
-.titlebox .bottom:before {
-font-size: 10px;
-color: gray;
-content: " ";
-}
-.titlebox .bottom .age {
-font-size: 10px;
-color: gray;
+    background-position: -0px -29px;
 }
 
-/*
-.side .md p > em {
-display: inline-block;
-padding: 5px;
-background: #F6E69F;
-border: 1px solid orange;
-}*/
+/*******************************************************************************************
+ * Styling for reply links on posts.
+ */
+
 a.comments {
   font-size: 14px !important;
   color: #666666 !important;
@@ -107,129 +104,41 @@ a.comments.empty {
   font-size: 16px !important;
 }
 a.title {
-    font-size: 17px !important;
-    
-    }
-/*
-div.thing.link {
-    border-style: dashed;
-    border-width: 1px;
-    border-bottom-width: 0;
-    border-right-width: 0;
-    border-left-style: none;
-    border-color: #b0b0b0;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 5px 4px;
-    width: 88%;
+    font-size: 17px !important;    
 }
-a[href$="changes"].title:link {
-    color: red
-}
-a[href$="changes"].title:visited {
-  color: red !important
-}*/
 
-/*********
-* Position UpsAlien, so it fits inside the bound box
-* @author ohdeno.  @date 18th Jan 2012
-*/
+/*******************************************************************************************
+ * Position UpsAlien, so it fits inside the bound box
+ * @author ohdeno.  @date 18th Jan 2012
+ */
+
 #header-img-a {
  display: inline-block;
  min-width: 140px; /* 126 px */
  min-height: 42px;
 }
+
 #header-img-a > #header-img {
  margin-top: 3px;
  position: absolute;
 }
+
 .content {
  margin-top: 20px;
 }
 
-/*********
-* SOPA merge note   (Obsolete, so we can remove it right? --schmin)*
-* @author ohdeno.  @date 18th Jan 2012
-*/
-.titlebox .usertext-body > div.md > :nth-child(1) {
- /* padding: 10px; */
- /* background-color: lightgreen; */
- /* background-color: lightgray; */ /* @date 20–21 Jan 2012 */
-}
+/*******************************************************************************************
+ * This is not Youtube, so let’s keep video expanders grey.
+ * @author ohdeno.  @date 26th Dec 2011
+ */
 
-/*********
-* • Dark grey italics extended description to increase contrast for better readability in our rules/policy
-* • Smaller text, since it’s a narrow space.
-* @author ohdeno.  @date 26th Dec 2011
-*/
-.side .usertext-body ul:nth-child(3) > li > em {
- color: #303030; /* charcoal */
- font-size: 95%;
-}
-
-/*********
-* Get rid of useless bullet points in rules/policy
-* @author ohdeno.  @date 26th Dec 2011
-*/
-.side .usertext-body hr + ul {
- list-style: none;
- margin-left: 0;
-}
-
-/*********
-* Add some vertical spacing to the rules/policy list
-* @author ohdeno.  @date 26th Dec 2011
-*/
-.side .usertext-body hr + ul > li {
- margin-top: 5px;
-}
-
-/*********
-* Make the italic descriptions start from new line
-* and add slight margin from left to indicate hierarchy
-* @author ohdeno.  @date 26th Dec 2011
-*/
-.side .usertext-body hr + ul > li > em {
- display: block;
- margin-left: 10px;
-}
-
-/*********
-* This is not Youtube, so let’s keep video expanders grey.
-* @author ohdeno.  @date 26th Dec 2011
-*/
 .expando-button.collapsed.video {
  background: url(%%grey-video-collapsed-bold-pixelplus%%) top left no-repeat;
 }
 
-/*********
-* They look like Alien’s antenna.  (WTH does this mean? --schmin)
-* @author ohdeno.  @date 28th Dec 2011, 13th Jan 2012
-*/
-.side .usertext-body ul {
- list-style-type: circle;
-}
-
-/*********
-* Hide user flairs in moderator box in the sidebar.   (I don't think this works. --schmin)
-* @author ohdeno.  @date 20th Feb 2012
-*/
-.side > :nth-child(7) .flair {
- display: none;
-}
-
-/*********
-* Display moderators next to each other.  (I don't think this works. --schmin)
-* @author ohdeno.  @date 20th Feb 2012
-*/
-.side > :nth-child(7) ul.content > li {
- display: inline-block;
- overflow: hidden;
-}
-
-/*********
-* Display colored flair. Made for contributing members.   @author computerpsych.  @date 18th Mar 2012
-*/
+/*******************************************************************************************
+ * Display colored flair. Made for contributing members.   @author computerpsych.  @date 18th Mar 2012
+ */
 
 .flair, .linkflair .linkflairlabel {
  color:#000;
@@ -241,10 +150,11 @@ a[href$="changes"].title:visited {
  background:#20B2AA !important; color:black !important;
 }
 
-/*********
-* Display less bright colored flair. Made for contributing members.
-* @author computerpsych.  @date 2nd Apr2012
-*/
+/*******************************************************************************************
+ * Display less bright colored flair. Made for contributing members.
+ * @author computerpsych.  @date 2nd Apr2012
+ */
+
 .flair-LBLUE{
  background:#BAD0EF !important; color:black !important;
 }
@@ -267,11 +177,11 @@ a[href$="changes"].title:visited {
  background:#FFB5B5 !important; color:black !important;
 }
 
-/*********
-* Attempt to style posts about medication or Adderall differently. Initially just by a sprite of a red & white capsule at beginning or end.
-/* @author computerpsych.  @date 4th Apr2012
-/* Cleaned up duplicates and reorganized by topic then alphabetical.  @author schmin.  @date 10th Jun 2012
-*/
+/*******************************************************************************************
+ * Attempt to style posts about medication or Adderall differently. Initially just by a sprite of a red & white capsule at beginning or end.
+ * @author computerpsych.  @date 4th Apr2012
+ * Cleaned up duplicates and reorganized by topic then alphabetical.  @author schmin.  @date 10th Jun 2012
+ */
 
 a.title[href*="addera"]:before,a.title[href*="addy"]:before,a.title[href*="aderall"]:before,a.title[href*="concerta"]:before,a.title[href*="focalin"]:before,a.title[href*="riltlin"]:before,a.title[href*="ritalin"]:before,a.title[href*="ritz"]:before,a.title[href*="vyvanse"]:before,a.title[href*="vyvance"]:before,a.title[href*="amphetamine"]:before,a.title[href*="dexidrine"]:before,a.title[href*="dexedrine"]:before,a.title[href*="methylp"]:before,a.title[href*="stimulant"]:before,a.title[href*="medicine"]:before,a.title[href*="medica"]:before,a.title[href*="meds"]:before,a.title[href*="brand_name"]:before,a.title[href*="generic"]:before,a.title[href*="phamarc"]:before,a.title[href*="prescription"]:before,a.title[href*="script"]:before,a.title[href*="pills"]:before,a.title[href*="anti_depr"]:before,a.title[href*="wellbutrin"]:before{     
   background-image:  url(%%pill%%);
@@ -283,20 +193,10 @@ a.title[href*="addera"]:before,a.title[href*="addy"]:before,a.title[href*="adera
   background-position: 1px 2px;     
 }
 
-/*********
-*replace "readers" with rADHDitors.  @author computerpsych.  * @date 19th April2012
-*/
-div.titlebox span.word {
-    display: none
-    }
-div.titlebox span.number:after {
-    content: " reADHDitors"
-    }
-
-/*********
-* Add a light GREY background for alternating posts to give a bit of a visual break that is not distracting
-* @author computerpsych.  @date 19th Apr2012
-*/
+/*******************************************************************************************
+ * Add a light GREY background for alternating posts to give a bit of a visual break that is not distracting
+ * @author computerpsych.  @date 19th Apr2012
+ */
 
 .link.even, .linkcompressed.even {
     /*background-color: #CEE3F8; /* Palest blue */
@@ -310,7 +210,8 @@ div.titlebox span.number:after {
     -moz-border-radius-bottomleft: 7px !important;
     -moz-border-radius-topright: 7px !important;
     -moz-border-radius-topleft: 7px !important
-    }
+}
+
 .link.odd, .linkcompressed.odd, .link.even + .link.odd {
     background-color: #FFFFFF; /* white */
     padding: 5px 10px 5px 10px !important;
@@ -322,12 +223,13 @@ div.titlebox span.number:after {
     -moz-border-radius-bottomleft: 7px !important;
     -moz-border-radius-topright: 7px !important;
     -moz-border-radius-topleft: 7px !important
-    }
+}
 
-/*********
-* Adding some text to the submission page
-* @author computerpsych.  @date 24th Apr2012
-*/
+/******************************************************************************************
+ * Adding some text to the submission page
+ * @author computerpsych.  @date 24th Apr2012
+ */
+
 /* Adds bolded text in the yellow box on the text-submission page */
 #text-desc:after {
     display: block;
@@ -336,13 +238,16 @@ div.titlebox span.number:after {
     margin-bottom: 1em;
     margin-top: 1em;
     content: "Please search /r/adhd or use google for 'site:reddit.com/r/adhd *search terms*'. Please include previous research you have found regarding your question. /r/ADHD is not your personal research assistant. 'Here are my symptoms, do I have ADHD' posts will be deleted. See a doctor!"
-    }
+}
+
 #text-field .title:before {
     content: ""
-    }
+}
+
 #text-field .title:after {
     content: ": Avoid a wall of text by spacing your paragraphs and including proper formatting (bullets and bold especially helps!). If your post is more than 2 paragraphs we suggest a TLDR (too long didn't read) summary."
-    }
+}
+
 #title-field .title:after {
     content: ": Please use a DESCRIPTIVE title and include your question for self-posts."
 }
@@ -355,26 +260,13 @@ div.titlebox span.number:after {
     margin-bottom: 1em;
     margin-top: 1em;
     content: "If you are posting a picture or meme, consider taking it to /r/ADHDmeme, or include a comment which shares your experience or asks a question to stimulate a discussion."
-    }
-
-/*********
-* Adding a sticky for announcements. To change the announcement simply edit the h3 (###) item at the top of the sidebar.
-* @author computerpsych.  @date 30th Apr2012
-*/
-/*announcement sticky*/
-div.content {
-/*This lowers the links to create space*/
-margin-top:50px;
-}
-.titlebox form {
-/*Hack to enable repositioning of child elements*/
-position: static;
 }
 
-/*********
-* Link flair styling
-* @author computerpsych.  @date 5th May 2012
-*/
+/*******************************************************************************************
+ * Link flair styling
+ * @author computerpsych.  @date 5th May 2012
+ */
+
 .flair-tip, .linkflair-tip .linkflairlabel, .linkflair.linkflair-tip> .linkflairlabel {
     background: #99FFCC !important;
     border-color: #4AF29C !important
@@ -400,11 +292,12 @@ position: static;
     border-color: #e49 !important
     }
 
-/*********
-* Sidebar styling
-* @author computerpsych.  @date 18th June 2012
-*/
-div.titlebox {
+/*******************************************************************************************
+ * Sidebar styling
+ * @author computerpsych.  @date 18th June 2012
+ */
+
+.side .titlebox {
     background-color: #ffffff; /*white*/
     border: 4px solid gray;
     /********* Sidebar Border CONSTANT COLOR (or same as sticky background) */
@@ -416,67 +309,152 @@ div.titlebox {
     margin-bottom: 10px;
     margin-right: 2px;
     overflow: visible
-    }
-.titlebox .usertext-body .md hr {
-color: #CEE3F8; /* Palest blue */
-/********* Sidebar Headers: CONSTANT COLOR (or same as sticky background) */
-    background-color: #333333; /* -- Charcoal */
-height: 4px;
 }
+
+/*******************************************************************************************
+ *replace "readers" with rADHDitors.
+ * @author computerpsych.
+ * @date 19th April2012
+ */
+
+.side .titlebox span.word {
+    display: none
+}
+
+.side .titlebox span.number:after {
+    content: " reADHDitors"
+}
+
+/*******************************************************************************************
+ * Sidebar content styling
+ */
+
 .side .md h1 {
-    /********* Sidebar Dividers: CONSTANT COLOR (or same as sticky background) */
+    /********* Sidebar Headers: CONSTANT COLOR (or same as sticky background) */
     color: #333333; /* -- Charcoal */
     margin-top: 8px
 }
 
-/*********
-* HOVER MENUS, by sugardeath, 29.June.2012
-* Weekly Thread (List 1), Community Guidelines (List 2), Related Subreddits (List 4)
-*/
-/*turns the lists into menus*/
-.titlebox ul:nth-of-type(1),
-.titlebox ul:nth-of-type(2),
-.titlebox ul:nth-of-type(4) {
-font-weight:bold;
+.side .md hr {
+color: #CEE3F8; /* Palest blue */
+    /********* Sidebar Dividers: CONSTANT COLOR (or same as sticky background) */
+    background-color: #333333; /* -- Charcoal */
+    height: 4px;
+}
 
-    /********* (might be horizontal divider 'shadow'): CONSTANT COLOR (or same as STICKY Text COLOR) */
-    background-color: #ffffff; /*white*/
-    margin-top: 6px
-    }
-/*hide and styles lists*/
-.titlebox ul:nth-of-type(1) li,
-.titlebox ul:nth-of-type(2) li,
-.titlebox ul:nth-of-type(4) li {
-    display: none;
-list-style-type:circle;
-margin-left:20px;
-color: black;
-    }
-/*makes whole list item selectable*/
-.titlebox ul:nth-of-type(1) li a,
-.titlebox ul:nth-of-type(2) li a,
-.titlebox ul:nth-of-type(4) li a {
-    }
-/*shows menu on hover*/
-.titlebox ul:nth-of-type(1) li:first-child,
-.titlebox ul:nth-of-type(2) li:first-child,
-.titlebox ul:nth-of-type(4) li:first-child,
-.titlebox ul:hover li {
+.side .md > ul > li em {
+    color: #333333; /* charcoal */
+    font-size: 95%;
     display: block;
-list-style-type:circle;
-    }
-/*turns top list item into section header*/
-.titlebox ul:nth-of-type(1) li:first-child,
-.titlebox ul:nth-of-type(2) li:first-child,
-.titlebox ul:nth-of-type(4) li:first-child {
-    font-size: 12pt;
-margin-left:0px;
+    margin-left: 20px;
+}
 
-/************* Sidebar Hover Menus: CONSTANT COLOR (or same as sticky link) *************/
-color: #0066FF; /* french blue */
-    }
+/*******************************************************************************************
+ * HOVER MENUS, by sugardeath, 29.June.2012
+ * Weekly Thread (List 1), Community Guidelines (List 2), Related Subreddits (List 4)
+ */
+
+/* turns the lists into menus */
+.side .md > ul:nth-of-type(1),
+.side .md > ul:nth-of-type(2),
+.side .md > ul:nth-of-type(3) {
+    margin-left: 0;
+    list-style-type: none;
+}
+
+/* hide and styles lists */
+.side .md > ul:nth-of-type(1) > li,
+.side .md > ul:nth-of-type(2) > li,
+.side .md > ul:nth-of-type(3) > li {
+    display: none;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+/* makes whole list item selectable */
+.side .md > ul:nth-of-type(1) li a,
+.side .md > ul:nth-of-type(2) li a,
+.side .md > ul:nth-of-type(3) li a {
+}
+
+/* shows header items always and menu on hover */
+.side .md > ul:nth-of-type(1):hover > li,
+.side .md > ul:nth-of-type(2):hover > li,
+.side .md > ul:nth-of-type(3):hover > li {
+    display: block;
+}
+
+/* turns top list item into section header */
+.side .md > ul:nth-of-type(1) > li:first-child,
+.side .md > ul:nth-of-type(2) > li:first-child,
+.side .md > ul:nth-of-type(3) > li:first-child {
+    display: block;
+
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 0;
+    margin-top: 8px;
+    margin-bottom: 5px;
+
+    /************* Sidebar Hover Menus: CONSTANT COLOR (or same as sticky link) *************/
+    color: #0066FF; /* french blue */
+}
+
+/* make emphasized text in the first item (the header) be smaller */
+.side .md > ul:nth-of-type(1) > li:first-child > em,
+.side .md > ul:nth-of-type(2) > li:first-child > em,
+.side .md > ul:nth-of-type(3) > li:first-child > em {
+    display: inline;
+    font-size: 12px;
+    margin-left: 0;
+
+    /************* Sidebar Hover Menus: CONSTANT COLOR (or same as sticky link) *************/
+    color: #0066BB;
+}
+
+/*******************************************************************************************
+ * Styling for the "community age" at the bottom of the sidebar
+ */
+
+.titlebox .bottom {
+    font-size: 0px;
+    color: #FFF;
+}
+
+.titlebox .bottom:before {
+    font-size: 10px;
+    color: gray;
+    content: " ";
+}
+
+.titlebox .bottom .age {
+    font-size: 10px;
+    color: gray;
+}
+
+/*******************************************************************************************
+ * Hide user flairs in moderator box in the sidebar, and display moderators next to each other.
+ * @author somebear.  @date 24th Feb 2013
+ */
+
+.side > .spacer > .sidecontentbox > .helplink + .title + ul .flair {
+ display: none;
+}
+
+.side > .spacer > .sidecontentbox > .helplink + .title + ul > li {
+ display: inline-block;
+ overflow: hidden;
+}
+
+/*******************************************************************************************
+ * Misc.
+ */
 
 /* Experimenting with some font styling. Headers. */
+
+.md ul {
+    list-style-type: circle;
+}
 
 .md h4 {
 font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -555,7 +533,9 @@ background-image:  url(%%brain%%);
   background-position: 2px 7px;     
 }
 
-/************* Wiki styling *************/
+/*******************************************************************************************
+ * Wiki styling
+ */
 
 .wiki-page .wiki-page-content .md.wiki h1, .wiki-page .wiki-page-content .md.wiki h2, .wiki-page .wiki-page-content .md.wiki h3, .wiki-page .wiki-page-content .md.wiki h4, .wiki-page .wiki-page-content .md.wiki h5, .wiki-page .wiki-page-content .md.wiki h6 {
   color: #333333!important;
