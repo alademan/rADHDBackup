@@ -450,11 +450,11 @@ color: #CEE3F8; /* Palest blue */
  * Misc.
  */
 
-/* Experimenting with some font styling. Headers. */
-
 .md ul {
     list-style-type: circle;
 }
+
+/* Experimenting with some font styling. Headers. */
 
 .md h4 {
 font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -480,7 +480,7 @@ margin-top: 5px;
 margin-bottom: 5px
 }
 
-/* Experimenting with experimental stuff. Changing font of reply link in cmoments and increase size/visibility of usernames */
+/* Experimenting with experimental stuff. Changing font of reply link in comments and increase size/visibility of usernames */
 
 .entry .buttons a[onclick*="reply"]{
 color:#88AADD !important; 
@@ -531,6 +531,12 @@ background-image:  url(%%brain%%);
   display: inline-block;     
   background-repeat: no-repeat;
   background-position: 2px 7px;     
+}
+
+/* Trying out what happens if we hide the "Submit a new link" button */
+/* (people can still submit links by selecting the "link" tab on the "text" submission page. */
+.side .submit-link {
+    display: none;
 }
 
 /*******************************************************************************************
