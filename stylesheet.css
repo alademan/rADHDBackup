@@ -2,8 +2,7 @@
  * CSS STYLESHEET FOR /R/ADHD
  */
 
-/*******************************************************************************************
- * Sticky Color Combinations
+    /************* STICKY COLOR Combinations *************
  * To change the announcement simply edit the h3 (###) item at the top of the sidebar
  * (under /r/adhd moderations tools > community settings.)
  * To change color, edit (comment and uncomment) the color and background-color attributes below.
@@ -12,29 +11,29 @@
 
 .side h3:nth-of-type(1) a {
     /************* STICKY LINK COLOR *************/
-/*    color: #ff9999; /* -- salmon */
-/*    color: #aa88ff; /* -- lavender */
-    color: #00dddd; /* -- aqua */
-/*    color: #77ee77; /*-- apple green */
-/*    color: #ffee00; /*-- yellow */
-/*    color: #ff8448; /* orange */
+/* color: #ff9999; /* -- salmon */
+/* color: #aa88ff; /* -- lavender */
+/* color: #00dddd; /* -- aqua */
+ color: #77ee77; /*-- apple green */
+/* color: #ffee00; /*-- yellow */
+/* color: #ff8448; /* orange */
 }
 
 .side h3:nth-of-type(1) {
     /************* STICKY BACKGROUND COLOR *************/
-/*    background-color: #880022; /* -- merlot (Sticky Background Color #1) */
-/*    background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
-/*    background-color: #5d005d; /* -- eggplant (Sticky Background Color #3) */
-    background-color: #000777; /* indigo (Sticky Background Color #4) */
-/*    background-color: #005c5c; /* -- dark teal (Sticky Background Color #5) */
-/*    background-color: #005500; /* forest green (Sticky Background Color #6) */
+/* background-color: #880022; /* -- merlot (Sticky Background Color #1) */
+/* background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
+/* background-color: #5d005d; /* -- eggplant (Sticky Background Color #3) */
+/* background-color: #000777; /* indigo (Sticky Background Color #4) */
+background-color: #005c5c; /* -- dark teal (Sticky Background Color #5) */
+/* background-color: #005500; /* forest green (Sticky Background Color #6) */
 
     /************* STICKY TEXT COLOR *************/
-/*    color: #ffffee; /* -- palest yellow */
-/*    color: #ddffdd; /* -- palest green */
-/*    color: #cceeff; /* -- palest blue */
-    color: #eeeeee; /* -- bone (off-white) */
-/*    color: #009900; /* --darker green */
+/* color: #ffffee; /* -- palest yellow */
+/* color: #ddffdd; /* -- palest green */
+/* color: #cceeff; /* -- palest blue */
+color: #eeeeee; /* -- bone (off-white) */
+/* color: #009900; /* --darker green */
 
     /*this code positions the sticky*/
 
