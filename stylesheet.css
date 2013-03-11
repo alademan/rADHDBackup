@@ -136,6 +136,13 @@ a.title {
 }
 
 /*******************************************************************************************
+ * Display mod-title flair.   @author schmin.  @date 11th Mar 2013
+ */
+
+.author[href$="/user/Tylzen"]:after{content:"the Bunnykicker!";padding:0 .5em;color:#000;font-weight:bolder}
+
+
+/*******************************************************************************************
  * Display colored flair. Made for contributing members.   @author computerpsych.  @date 18th Mar 2012
  */
 
@@ -299,6 +306,7 @@ a.title[href*="addera"]:before,a.title[href*="addy"]:before,a.title[href*="adera
 .side .titlebox {
     background-color: #ffffff; /*white*/
     border: 4px solid gray;
+    
     /********* Sidebar Border CONSTANT COLOR (or same as sticky background) */
     border-color: #333333; /* -- Charcoal */
     padding: 3px 3px 4px 4px;
@@ -440,11 +448,6 @@ color: #CEE3F8; /* Palest blue */
  display: none;
 }
 
-.side > .spacer > .sidecontentbox > .helplink + .title + ul > li {
- display: inline-block;
- overflow: hidden;
-}
-
 /*******************************************************************************************
  * Misc.
  */
@@ -511,7 +514,7 @@ a.author[href$="/TuckmanPsych"]:before, a.author[href$="/dnowell"]:before{conten
 }
 
 /* Adding the star to a couple of the mod posts. We will have to come up with a standard for the beginning of post to trigger this - computerpsych */
-a.title[href*="Start_Sunday"]:before,a.title[href*="Win_Wednesday"]:before,a.title[href*="Tip_Thursday"]:before,a.title[href*="Freely_Ask"]:before,a.title[href*="PSA"]:before{
+a.title[href*="kick_start_sunday"]:before,a.title[href*="win_wednesday"]:before,a.title[href*="tip_thursday"]:before,a.title[href*="freely_ask"]:before{
 background-image:  url(%%star%%);
   width: 20px;
   height: 20px;
