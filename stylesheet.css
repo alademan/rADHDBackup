@@ -11,21 +11,21 @@
 
 .side h3:nth-of-type(1) a {
     /************* STICKY LINK COLOR *************/
-/* color: #ff9999; /* -- salmon */
+color: #ff9999; /* -- salmon */
 /* color: #aa88ff; /* -- lavender */
 /* color: #00dddd; /* -- aqua */
 /* color: #77ee77; /*-- apple green */
-color: #ffee00; /*-- yellow */
+/* color: #ffee00; /*-- yellow */
 /* color: #ff8448; /* orange */
 }
 
 .side h3:nth-of-type(1) {
     /************* STICKY BACKGROUND COLOR *************/
 /* background-color: #880022; /* -- merlot (Sticky Background Color #1) */
-/* background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
+background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
 /* background-color: #5d005d; /* -- eggplant (Sticky Background Color #3) */
 /* background-color: #000777; /* indigo (Sticky Background Color #4) */
-background-color: #005c5c; /* -- dark teal (Sticky Background Color #5) */
+/* background-color: #005c5c; /* -- dark teal (Sticky Background Color #5) */
 /* background-color: #005500; /* forest green (Sticky Background Color #6) */
 
     /************* STICKY TEXT COLOR *************/
@@ -511,7 +511,7 @@ a.author[href$="/TuckmanPsych"]:before, a.author[href$="/dnowell"]:before{conten
 }
 
 /* Adding the star to a couple of the mod posts. We will have to come up with a standard for the beginning of post to trigger this - computerpsych */
-a.title[href*="win_wednesday"]:before,a.title[href*="freely_ask"]:before{
+a.title[href*="Start_Sunday"]:before,a.title[href*="Win_Wednesday"]:before,a.title[href*="Tip_Thursday"]:before,a.title[href*="Freely_Ask"]:before,a.title[href*="PSA"]:before{
 background-image:  url(%%star%%);
   width: 20px;
   height: 20px;
