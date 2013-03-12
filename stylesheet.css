@@ -140,6 +140,7 @@ a.title {
  */
 
 .author[href$="/user/Tylzen"]:after{content:"the Bunnykicker!";padding:0 .5em;color:#000;font-weight:bolder}
+.author[href$="/user/someonefarted"]:after{content:"the most magnificent Mod!";padding:0 .5em;color:#000;font-weight:bolder}
 
 
 /*******************************************************************************************
