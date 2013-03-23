@@ -240,32 +240,44 @@ a.title[href*="addera"]:before,a.title[href*="addy"]:before,a.title[href*="adera
 /* Adds bolded text in the yellow box on the text-submission page */
 #text-desc:after {
     display: block;
-    font-weight: bold;
-    font-size: 1.2em;
+    border: 1px solid red;
+    background: #ffcccc;
+    padding: 0.5em;
     margin-bottom: 1em;
     margin-top: 1em;
-    content: "Please search /r/adhd or use google for 'site:reddit.com/r/adhd *search terms*'. Please include previous research you have found regarding your question. /r/ADHD is not your personal research assistant. 'Here are my symptoms, do I have ADHD' posts will be deleted. See a doctor!"
+
+    font-weight: bold;
+
+    content: "Please search /r/adhd or use google for 'site:reddit.com/r/adhd [search terms]'. Please include previous research you have found regarding your question. /r/ADHD is not your personal research assistant. 'Here are my symptoms, do I have ADHD' posts will be deleted. See a doctor!"
 }
 
 #text-field .title:before {
     content: ""
 }
 
-#text-field .title:after {
-    content: ": Avoid a wall of text by spacing your paragraphs and including proper formatting (bullets and bold especially helps!). If your post is more than 2 paragraphs we suggest a TLDR (too long didn't read) summary."
+#title-field .title:after {
+    font-size: 80%;
+    font-style: italic;
+    content: ": Please use a DESCRIPTIVE title and include your question for self-posts."
 }
 
-#title-field .title:after {
-    content: ": Please use a DESCRIPTIVE title and include your question for self-posts."
+#text-field .title:after {
+    font-size: 80%;
+    font-style: italic;
+    content: ": Avoid a wall of text by spacing your paragraphs and including proper formatting (bullets and bold especially helps!). If your post is more than 2 paragraphs we suggest a TL;DR (Too Long; Didn't Read) summary. "
 }
 
 /* Placeholder for custom text on the link submission page in the yellow box */
 #link-desc:after {
     display: block;
-    font-weight: bold;
-    font-size: 1.2em;
+    border: 1px solid red;
+    background: #ffcccc;
+    padding: 0.5em;
     margin-bottom: 1em;
     margin-top: 1em;
+
+    font-weight: bold;
+
     content: "If you are posting a picture or meme, consider taking it to /r/ADHDmeme, or include a comment which shares your experience or asks a question to stimulate a discussion."
 }
 
@@ -359,7 +371,7 @@ color: #CEE3F8; /* Palest blue */
 
 /*******************************************************************************************
  * HOVER MENUS, by sugardeath, 29.June.2012
- * Weekly Thread (List 1), Community Guidelines (List 2), Related Subreddits (List 4)
+ * Weekly Thread (Unordered List 1), Posting rules (Ordered List 1), Community Guidelines (Unordered List 2, Related Subreddits (Unordered List 3)
  */
 
 /* turns the lists into menus */
@@ -370,8 +382,14 @@ color: #CEE3F8; /* Palest blue */
     list-style-type: none;
 }
 
-/* hide and styles lists */
+/* the ordered list (Posting rules) should still be a list. */
+.side .md > ol:nth-of-type(1) {
+    margin-left: 0;
+}
+
+/* hide and style lists */
 .side .md > ul:nth-of-type(1) > li,
+.side .md > ol:nth-of-type(1) > li,
 .side .md > ul:nth-of-type(2) > li,
 .side .md > ul:nth-of-type(3) > li {
     display: none;
@@ -381,24 +399,35 @@ color: #CEE3F8; /* Palest blue */
 
 /* makes whole list item selectable */
 .side .md > ul:nth-of-type(1) li a,
+.side .md > ol:nth-of-type(1) li a,
 .side .md > ul:nth-of-type(2) li a,
 .side .md > ul:nth-of-type(3) li a {
 }
 
-/* shows header items always and menu on hover */
+/* shows menu items on hover */
 .side .md > ul:nth-of-type(1):hover > li,
 .side .md > ul:nth-of-type(2):hover > li,
 .side .md > ul:nth-of-type(3):hover > li {
     display: block;
 }
 
+/* The ordered list (Posting rules) should still be a list. */
+.side .md > ol:nth-of-type(1):hover > li {
+    display: list-item;
+}
+
+/*
+ *   Format header items
+ */
+
 /* turns top list item into section header */
 .side .md > ul:nth-of-type(1) > li:first-child,
+.side .md > ol:nth-of-type(1) > li:first-child,
 .side .md > ul:nth-of-type(2) > li:first-child,
 .side .md > ul:nth-of-type(3) > li:first-child {
     display: block;
 
-    font-size: 16px;
+    font-size: 110%;
     font-weight: bold;
     margin-left: 0;
     margin-top: 8px;
@@ -408,13 +437,24 @@ color: #CEE3F8; /* Palest blue */
     color: #0066FF; /* french blue */
 }
 
-/* make emphasized text in the first item (the header) be smaller */
-.side .md > ul:nth-of-type(1) > li:first-child > em,
-.side .md > ul:nth-of-type(2) > li:first-child > em,
-.side .md > ul:nth-of-type(3) > li:first-child > em {
+/* Make sure that top items that contain a p element do not break "(hover)" text onto new line. */
+.side .md > ul:nth-of-type(1) > li:first-child > p,
+.side .md > ol:nth-of-type(1) > li:first-child > p,
+.side .md > ul:nth-of-type(2) > li:first-child > p,
+.side .md > ul:nth-of-type(3) > li:first-child > p {
+    display: inline-block;
+}
+
+/* Insert and style "(hover)" text. */
+.side .md > ul:nth-of-type(1) > li:first-child:after,
+.side .md > ol:nth-of-type(1) > li:first-child:after,
+.side .md > ul:nth-of-type(2) > li:first-child:after,
+.side .md > ul:nth-of-type(3) > li:first-child:after {
+    content: " (hover)";
     display: inline;
-    font-size: 12px;
-    margin-left: 0;
+    font-size: 95%;
+    font-style: italic;
+    font-weight: normal;
 
     /************* Sidebar Hover Menus: CONSTANT COLOR (or same as sticky link) *************/
     color: #0066BB;
