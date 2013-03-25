@@ -369,6 +369,10 @@ color: #CEE3F8; /* Palest blue */
     margin-left: 20px;
 }
 
+.side .md a:hover {
+    text-decoration: underline;
+}
+
 /*******************************************************************************************
  * HOVER MENUS, by sugardeath, 29.June.2012
  * Weekly Thread (Unordered List 1), Posting rules (Ordered List 1), Community Guidelines (Unordered List 2, Related Subreddits (Unordered List 3)
@@ -427,7 +431,7 @@ color: #CEE3F8; /* Palest blue */
 .side .md > ul:nth-of-type(3) > li:first-child {
     display: block;
 
-    font-size: 110%;
+    font-size: 16px;
     font-weight: bold;
     margin-left: 0;
     margin-top: 8px;
@@ -505,6 +509,14 @@ font-size: 16px;
 color: #CC0000;
 margin-top: 5px;
 margin-bottom: 5px
+}
+
+.md h4 a {
+    color: #000000;
+}
+
+.md h4 a:hover {
+    text-decoration: underline;
 }
 
 .md h5 {
