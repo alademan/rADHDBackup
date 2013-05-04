@@ -1,5 +1,5 @@
 Username: (rpullman|throwawayforreals00|scubetrolis|stabbypants|partanimal|jongorilla)
-Action: log,spam,messagemods
+Actions: log,spam,messagemods
 Subject: User submission/comment marked as spam
 
 User /u/{thing.author.name} posted [this]({thing.permalink}).  I have marked it as spam based on previous user history (as identified by users or mods and reported to sugardeath).
