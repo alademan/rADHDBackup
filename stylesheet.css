@@ -13,16 +13,16 @@
     /************* STICKY LINK COLOR *************/
 /* color: #ff9999; /* -- salmon */
 /* color: #aa88ff; /* -- lavender */
-color: #00dddd; /* -- aqua */
+/* color: #00dddd; /* -- aqua */
 /* color: #77ee77; /*-- apple green */
-/* color: #ffee00; /*-- yellow */
+color: #ffee00; /*-- yellow */
 /* color: #ff8448; /* orange */
 }
 
 .side h3:nth-of-type(1) {
     /************* STICKY BACKGROUND COLOR *************/
-/* background-color: #880022; /* -- merlot (Sticky Background Color #1) */
-background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
+background-color: #880022; /* -- merlot (Sticky Background Color #1) */
+/* background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
 /* background-color: #5d005d; /* -- eggplant (Sticky Background Color #3) */
 /* background-color: #000777; /* -- indigo (Sticky Background Color #4) */
 /* background-color: #005c5c; /* -- dark teal (Sticky Background Color #5) */
