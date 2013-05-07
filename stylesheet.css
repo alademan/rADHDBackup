@@ -139,8 +139,9 @@ a.title {
  * Display mod-title flair.   @author schmin.  @date 11th Mar 2013
  */
 
-.author[href$="/user/Tylzen"]:after{content:"the Bunnykicker!";padding:0 .5em;color:#000;font-weight:bolder}
 .author[href$="/user/someonefarted"]:after{content:"the most magnificent Mod!";padding:0 .5em;color:#000;font-weight:bolder}
+.author[href$="/user/SukaPahpah"]:after{content:"Pokie Pie";padding:0 .5em;color:#000;font-weight:bolder}
+.author[href$="/user/Tylzen"]:after{content:"the Wondering Viking!";padding:0 .5em;color:#000;font-weight:bolder}
 
 
 /*******************************************************************************************
