@@ -1,0 +1,6 @@
+Type: submission
+Title: (psilocybin|weed|marijuana|cocaine|heroin|kush|magic mushroom|psychedellic)
+Actions: log,spam,messagemods
+Subject: Potential Discussion of illegal drug usage.
+
+User /u/{thing.author.name} posted [this]({thing.permalink}) and mentioned "{matches[body][full]}".  I have not removed the submission, please review to determine if it's allowed discussion.
