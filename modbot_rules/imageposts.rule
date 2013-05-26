@@ -1,4 +1,4 @@
-Domain: (imgur.com|quickmeme.com|qkme.com|qkme.me|memegenerator.net|weknowmemes.com|memez.com)
+Domain: (imgur.com|quickmeme.com|qkme.com|qkme.me|memegenerator.net|weknowmemes.com|memez.com|imgflip.com)
 Actions: log,spam,respond
 
 Meme and image posts are not allowed on this subreddit.  Please direct all meme posts to /r/adhdmemes.
@@ -7,4 +7,4 @@ If you would like to discuss the image linked, please comment on this post with 
 
 ***
 
-I am an automated bot - please [contact the mods](http://www.reddit.com/message/compose?to=%2Fr%2Fadhd) and link your post if you believe I made a mistake.  Your feedback will help up tune the bot to better avoid false positives.
+I am an automated bot - please [contact the mods](http://www.reddit.com/message/compose?to=%2Fr%2Fadhd) and **link your post** if you believe I made a mistake.  Your feedback will help up tune the bot to better avoid false positives.
