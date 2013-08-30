@@ -258,7 +258,7 @@ a.title[href*="addera"]:before,a.title[href*="addy"]:before,a.title[href*="adera
     border-color: #333333; /* -- Charcoal */
     padding: 3px 3px 4px 4px;
     -moz-border-radius: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-left: 5px;
     margin-bottom: 10px;
     margin-right: 2px;
@@ -522,7 +522,7 @@ background-image:  url(%%brain%%);
   background-position: 2px 7px;     
 }
 
-/* Trying out what happens if we hide the "Submit a new link" button */
+/* Trying out what happens if we hide the "Submit a new link" button -- No complaints weeks or months after. */
 /* (people can still submit links by selecting the "link" tab on the "text" submission page. */
 .side .submit-link {
     display: none;
