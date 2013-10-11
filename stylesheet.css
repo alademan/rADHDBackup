@@ -136,7 +136,7 @@ a.title {
 .author[href$="/user/someonefarted"]:after{content:"the most magnificent Mod!";padding:0 .5em;color:#000;font-weight:bolder}
 .author[href$="/user/SukaPahpah"]:after{content:"Pokie Pie";padding:0 .5em;color:#000;font-weight:bolder}
 .author[href$="/user/Tylzen"]:after{content:"the Wondering Viking!";padding:0 .5em;color:#000;font-weight:bolder}
-
+.author[href$="/user/Chodrick"]:after{content:"RAH RAH RAH!";padding:0 .5em;color:#000;font-weight:bolder}
 
 /*******************************************************************************************
  * Display colored flair. Made for contributing members.   @author computerpsych.  @date 18th Mar 2012
