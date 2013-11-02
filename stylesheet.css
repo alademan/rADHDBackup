@@ -137,6 +137,7 @@ a.title {
 .author[href$="/user/SukaPahpah"]:after{content:"Pokie Pie";padding:0 .5em;color:#000;font-weight:bolder}
 .author[href$="/user/Tylzen"]:after{content:"the Wondering Viking!";padding:0 .5em;color:#000;font-weight:bolder}
 .author[href$="/user/Chodrick"]:after{content:url(%%cheer%%);padding:0 .5em;color:#000;font-weight:bolder}
+.author[href$="/user/MercuryChaos"]:after{content:"We didn't have an 'H' back in my day.";padding:0 .5em;color:#000;font-weight:bolder}
 
 /*******************************************************************************************
  * Display colored flair. Made for contributing members.   @author computerpsych.  @date 18th Mar 2012
