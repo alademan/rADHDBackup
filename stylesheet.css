@@ -17,20 +17,20 @@
 /* color: #ff9999; /* -- salmon */
 /* color: #aa88ff; /* -- lavender */
 /* color: #00dddd; /* -- aqua */
-/* color: #77ee77; /* -- apple green */
+color: #77ee77; /* -- apple green */
 /* color: #ffee00; /* -- yellow */
-color: #ff8448; /* -- orange */
+/* color: #ff8448; /* -- orange */
 }
 
 .side h3:nth-of-type(1) {
 
     /************* STICKY BACKGROUND COLOR *************/
 /* background-color: #880022; /* -- merlot (Sticky Background Color #1) */
-background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
+/* background-color: #333333; /* -- charcoal (Sticky Background Color #2) */
 /* background-color: #5d005d; /* -- eggplant (Sticky Background Color #3) */
 /* background-color: #000777; /* -- indigo (Sticky Background Color #4) */
 /* background-color: #005c5c; /* -- dark teal (Sticky Background Color #5) */
-/* background-color: #005500; /* -- forest green (Sticky Background Color #6) */
+background-color: #005500; /* -- forest green (Sticky Background Color #6) */
 
     /************* STICKY TEXT COLOR *************/
 /* color: #ffffee; /* -- palest yellow */
@@ -137,7 +137,7 @@ a.title {
 .author[href$="/user/SukaPahpah"]:after{content:"Pokie Pie";padding:0 .5em;color:#000;font-weight:bolder}
 .author[href$="/user/Tylzen"]:after{content:"the Wondering Viking!";padding:0 .5em;color:#000;font-weight:bolder}
 .author[href$="/user/Chodrick"]:after{content:url(%%cheer%%);padding:0 .5em;color:#000;font-weight:bolder}
-.author[href$="/user/MercuryChaos"]:after{content:"We didn't have an 'H' back in my day.";padding:0 .5em;color:#000;font-weight:bolder}
+.author[href$="/user/MercuryChaos"]:after{content:"We didn't have 'H' in my day.";padding:0 .5em;color:#000;font-weight:bolder}
 
 /*******************************************************************************************
  * Display colored flair. Made for contributing members.   @author computerpsych.  @date 18th Mar 2012
@@ -186,7 +186,7 @@ a.title {
  * Cleaned up duplicates and reorganized by topic then alphabetical.  @author schmin.  @date 10th Jun 2012
  */
 
-a.title[href*="addera"]:before,a.title[href*="addy"]:before,a.title[href*="aderall"]:before,a.title[href*="concerta"]:before,a.title[href*="focalin"]:before,a.title[href*="riltlin"]:before,a.title[href*="ritalin"]:before,a.title[href*="ritz"]:before,a.title[href*="vyvanse"]:before,a.title[href*="vyvance"]:before,a.title[href*="amphetamine"]:before,a.title[href*="dexidrine"]:before,a.title[href*="dexedrine"]:before,a.title[href*="methylp"]:before,a.title[href*="stimulant"]:before,a.title[href*="medicine"]:before,a.title[href*="medica"]:before,a.title[href*="meds"]:before,a.title[href*="brand_name"]:before,a.title[href*="generic"]:before,a.title[href*="phamarc"]:before,a.title[href*="prescription"]:before,a.title[href*="script"]:before,a.title[href*="pills"]:before,a.title[href*="anti_depr"]:before,a.title[href*="wellbutrin"]:before{     
+a.title[href*="addera"]:before,a.title[href*="addy"]:before,a.title[href*="aderall"]:before,a.title[href*="concerta"]:before,a.title[href*="focalin"]:before,a.title[href*="riltlin"]:before,a.title[href*="ritalin"]:before,a.title[href*="ritz"]:before,a.title[href*="vyvanse"]:before,a.title[href*="vyvance"]:before,a.title[href*="amphetamine"]:before,a.title[href*="dexidrine"]:before,a.title[href*="dexedrine"]:before,a.title[href*="methylp"]:before,a.title[href*="stimulant"]:before,a.title[href*="medicine"]:before,a.title[href*="medica"]:before,a.title[href*="meds"]:before,a.title[href*="brand_name"]:before,a.title[href*="generic"]:before,a.title[href*="phamarc"]:before,a.title[href*="prescription"]:before,a.title[href*="scrip"]:before,a.title[href*="pills"]:before,a.title[href*="anti_depr"]:before,a.title[href*="wellbutrin"]:before{     
   background-image:  url(%%pill%%);
   width: 18px;
   height: 18px;
